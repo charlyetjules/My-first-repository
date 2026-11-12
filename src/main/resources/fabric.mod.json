@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "id": "aether",
+  "version": "${version}",
+  "name": "Aether Visual Client",
+  "description": "Aether visual client menu. Press Right Shift in-game to open.",
+  "environment": "client",
+  "entrypoints": { "client": ["com.aether.client.AetherClient"] },
+  "depends": { "fabricloader": ">=0.16.0", "minecraft": "~1.21.1", "java": ">=21", "fabric-api": "*" }
+}
